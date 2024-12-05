@@ -176,4 +176,64 @@ a{
 }
 /* ------------------------------ FIM REDES */
 
+@media screen and (max-width:480px){
+    #cabecalho{
+        width: 100vw;
+        height: 50px;
+        border: 1px solid red;
+    }
+
+    #navegacao{
+        width: 100%;
+    }
+    
+    .navegacaoStyle{
+        font-size: 0.9rem;
+    }
+
+    /* ------------------------------ FIM CABEÇALHO TELEFONE */
+
+
+    .tituloCentralizado h1{
+        font-size: 2rem;
+    }
+    /* ------------------------------ FIM MEDIDA & TITULO CENTRALIZADO TELEFONE */
+
+
+    #inicio{
+        font-size: 1.3rem;
+        width: fit-content;
+    }
+
+    #inicio_bottom{
+        width: fit-content;
+    }
+
+    #inicio_bottom p{
+        font-size: 1.2rem;
+    }
+    /* ------------------------------ FIM INICIO TELEFONE*/
+
+    #habilidades{
+        flex-direction: column;
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    .cardSkill{
+        width: 300px;
+        height: 100px;
+    }
+    /* ------------------------------ FIM HABILIDADES TELEFONE*/
+
+    #redes{
+        flex-direction: column;
+    }
+
+    .blocoRede{
+        width: 350px;
+        height: 100px;
+    }
+}
+
 
