@@ -124,3 +124,43 @@ a{
 /* ------------------------------ FIM INICIO */
 
 
+#habilidades{
+    width: 100vw;
+    border: 1px solid white;
+    display: flex;
+    height: fit-content;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+#redes{
+    width: 100vw;
+    border: 1px solid white;
+    display: flex;
+    height: fit-content;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blocoRede{
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 19px;
+    background-color: rgba(128, 128, 128, 0.342);
+    transition: 0.3s;
+}
+
+.blocoRede:hover{
+    background-color: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
