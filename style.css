@@ -21,7 +21,6 @@ html{
     --cor_tagTexto_Objeto: #DF9041;
 }
 
-
 #cabecalho{
     width: 100vw;
     height: 90px;
@@ -56,6 +55,7 @@ a{
 }
 /* ------------------------------ FIM CABEÇALHO */
 
+
 .medida{
     width: 100vw;
     height: 650px;
@@ -77,6 +77,7 @@ a{
     font-size: 4rem;
 }
 /* ------------------------------ FIM MEDIDA & TITULO CENTRALIZADO */
+
 
 #box_inicio{
     display: flex;
@@ -247,6 +248,7 @@ a{
     }
     /* ------------------------------ FIM INICIO TELEFONE*/
 
+
     #sobreMim{
         margin-top: 10px;
         height: 560px;
@@ -255,8 +257,6 @@ a{
     #texto{
         height: 500px;
     }
-
-
     /* ------------------------------ FIM SOBRE MIM TELEFONE */
 
 
@@ -275,6 +275,7 @@ a{
         margin-bottom: 0px;
     }
     /* ------------------------------ FIM HABILIDADES TELEFONE*/
+
 
     #redes{
         flex-direction: column;
