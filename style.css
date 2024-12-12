@@ -137,6 +137,7 @@ a{
     height: 450px;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 40px;
 }
 
 .cardSkill{
@@ -174,6 +175,7 @@ a{
     height: 400px;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 40px;
 }
 
 .blocoRede{
