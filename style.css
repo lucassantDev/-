@@ -100,15 +100,16 @@ a{
 }
 
 #inicio{
-    width: 900px;
+    width: 90%;
     height: fit-content;
     color: var(--cor_tagTitulos);
-    font-size: 3.3rem;
+    font-size: 3rem;
     border: 1px solid red;
+    text-align: center;
 }
 
 #inicio_bottom{
-    width: 900px;
+    width: 90%px;
     height: fit-content;
     color: var(--cor_tagTexto_Objeto);
     font-size: 2rem;
