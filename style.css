@@ -18,6 +18,7 @@ html{
 
 *{
     margin: 0;
+    padding: 0;
 }
 
 :root{
@@ -33,7 +34,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
 }
 
 #navegacao{
@@ -42,7 +42,6 @@ header{
     justify-content: space-evenly;
     width: 60%;
     padding: 15px;
-    border: 1px solid red;
 }
 
 .navegacaoStyle{
@@ -50,7 +49,6 @@ header{
     font-size: 1.5rem;
     font-weight: 500;
     padding: 10px;
-    border: 1px solid red;
 }
 
 .navegacaoStyle:hover{
@@ -66,26 +64,23 @@ a{
 
 
 .medida{
-    width: 100%;
-    height: 650px;
+    width: 100vw;
+    height: 700px;
     /* border: 1px solid white; */
 }
 
 .tituloCentralizado{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 50px;
     color: var(--cor_tagTitulos);
     align-items: center;
     justify-content: center;
     display: flex;
-    border: 1px solid red;
-    
 }
 
 .tituloCentralizado h1{
     border-bottom: 2px solid var(--cor_pequenosDetalhes);
     font-size: 4rem;
-    border: 1px solid red;
 }
 /* ------------------------------ FIM MEDIDA & TITULO CENTRALIZADO */
 
@@ -96,7 +91,7 @@ a{
     justify-content: center;
     flex-direction: column;
     width: 100vw;
-    border: 1px solid red;
+    height: 600px;
 }
 
 #inicio{
@@ -104,8 +99,7 @@ a{
     height: fit-content;
     color: var(--cor_tagTitulos);
     font-size: 3rem;
-    border: 1px solid red;
-    text-align: center;
+    text-align: center; 
 }
 
 #inicio_bottom{
@@ -114,7 +108,6 @@ a{
     color: var(--cor_tagTexto_Objeto);
     font-size: 2rem;
     font-weight:400;
-    border: 1px solid red;
 }
 
 
@@ -125,7 +118,7 @@ a{
 
 #box_sobreMim{
     width: 100vw;
-    border: 1px solid red;
+
 }
 
 #sobreMim{
@@ -135,7 +128,6 @@ a{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    border: 1px solid red;
 }
 
 #texto{
@@ -150,7 +142,6 @@ a{
     justify-content: center;
     font-size: 1.3rem;
     color: var(--cor_pequenosDetalhes);
-    border: 1px solid red;
 }
 
 #fotoPerfil{
@@ -160,13 +151,11 @@ a{
     background-image: url(image/perfil_0.1.jpg);
     background-size: cover;
     border-radius: 50%;
-    border: 1px solid red;
 }
 /* ------------------------------ FIM SOBRE MIM */
 
 #box_habilidades{
     width: 100vw;
-    border: 1px solid red;
 }
 
 #habilidades_mobile{
@@ -181,7 +170,6 @@ a{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    border: 1px solid red;
 }
 
 .cardSkill{
@@ -190,7 +178,6 @@ a{
     border: 1px solid var(--cor_tagTexto_Objeto);
     transition: 0.3s;
     border-radius: 15px 15px 0px 0px;
-    border: 1px solid red;
 }
 
 .listado{
@@ -203,7 +190,6 @@ a{
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--cor_tagTexto_Objeto);
-    border: 1px solid red;
 }
 
 .cardSkill:hover{
@@ -222,13 +208,11 @@ a{
     font-weight: bold;
     background-color: var(--cor_pequenosDetalhes);
     color: var(--cor_fundo);
-    border: 1px solid red;
 }
 /* ------------------------------ FIM HABILIDADES */
 
 #box_redes{
     width: 100vw;
-    border: 1px solid red;
 }
 
 #redes{
@@ -238,7 +222,7 @@ a{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    border: 1px solid red;
+   
 }
 
 .blocoRede{
@@ -248,7 +232,6 @@ a{
     border-radius: 19px;
     background-color: var(--cor_fundo);
     transition: 0.3s;
-    border: 1px solid red;
 }
 
 .blocoRede:hover{
@@ -270,7 +253,6 @@ a{
     background-color: var(--cor_pequenosDetalhes);
     color: var(--cor_fundo);
     transition: 0.4s;
-    border: 1px solid red;
 }
 
 .blocoRede:hover .tituloRedes{
@@ -289,7 +271,6 @@ a{
     font-size: 7rem;
     color: var(--cor_pequenosDetalhes);
     transition: 0.4s;
-    border: 1px solid red;
 }
 
 .blocoRede:hover .imagens{
@@ -335,9 +316,10 @@ a{
 
     #inicio_bottom{
         width: fit-content;
-        font-size: 1.2rem;
+        font-size: 0.7rem;
     }
     /* ------------------------------ FIM INICIO TELEFONE*/
+    
     #box_sobreMim{
         height: 750px;
     }
@@ -376,7 +358,6 @@ a{
         flex-direction: column;
         width: 100%;
         height: 550px;
-        border: 1px solid red;
     }
 
     .cardSkill_mobile{
