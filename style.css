@@ -327,7 +327,8 @@ a{
     }
 
     .cardSkill:hover{
-        margin-bottom: 0px;
+        margin-bottom: none;
+        transition: none;
     }
     /* ------------------------------ FIM HABILIDADES TELEFONE*/
 
