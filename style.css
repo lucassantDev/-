@@ -129,9 +129,18 @@ a{
 }
 
 #texto{
-    width: 90%;
-    height: 370px;
+    width: 50%;
+    height: 300px;
     border: 1px solid red;
+}
+
+#fotoPerfil{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    background-image: url(image/perfil_0.1.jpg);
+    background-size: cover;
+    border-radius: 50%;
 }
 /* ------------------------------ FIM SOBRE MIM */
 
