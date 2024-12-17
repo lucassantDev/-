@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js "></script>
+    <script src="https://kit.fontawesome.com/e0b8a276c3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -74,24 +75,23 @@
             <div class="cardSkill">
                 <div class="tituloHabilidades">Ferramentas de versionamento</div>
                 <div class="listado">
-                    <p>Git</p>
-                    <p>GitHub</p>
+                    <span class="beside"> <div class="icone"><i class="fa-brands fa-git"></i></div> <p>Git</p></span>
+                    <span class="beside"> <div class="icone"><i class="fa-brands fa-github"></i></div> <p>GitHub</p></span>
                 </div>
             </div>
             <div class="cardSkill">
                 <div class="tituloHabilidades">Bom conhecimento</div>
                 <div class="listado">
-                    <p>HTML 5</p>
-                    <p>CSS 3</p>
-                    <p>MySQL</p>
+                    <span class="beside"> <div class="icone"><i class="fa-brands fa-html5"></i></div> <p>HTML</p></span>
+                    <span class="beside"> <div class="icone"><i class="fa-brands fa-css3-alt"></i></div> <p>CSS</p></span>
+                    <span class="beside"> <div class="icone"><i class="fa-solid fa-database"></i></div> <p>MySQL</p></span>
                 </div>
             </div>
             <div class="cardSkill">
                 <div class="tituloHabilidades">Estudando e aprendendo</div>
                 <div class="listado">
-                    <p>PHP</p>
-                    <p>JavaScript</p>
-                    <p>JQuery/AJAX</p>
+                    <span class="beside"> <div class="icone"><i class="fa-brands fa-php"></i></div> <p>PHP</p></span>
+                    <span class="beside"> <div class="icone"><i class="fa-brands fa-js"></i></div> <p>JavaScript</p></span>
                 </div>
             </div>
         </div>
@@ -136,7 +136,7 @@
             <div class="blocoRede" id="Linkedin">
                 <div class="tituloRedes">Meu Linkedin</div>
                 <div class="imagens" id="imagemLinkedin">
-                    <i class="fi fi-brands-linkedin"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                 </div>
             </div>
             <div class="blocoRede" id="GitHub">
@@ -147,6 +147,12 @@
             </div>
         </div>
     </div> <!-- FIM DIV BOX REDES-->
+
+    <footer>
+        <div id="fim">
+            <p>Página web desenvolvida por Lucas Ferreira, utilizando as tecnologias HTML & CSS - 2024</p>
+        </div>
+    </footer>
     
     <script>
         $(document).ready(function(){
