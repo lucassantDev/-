@@ -76,7 +76,9 @@ a{
 #subir{
     width: 50px;
     height: 50px;
-    background-color: white;
+    background-color: var(--cor_fundo);
+    border: 1px solid var(--cor_tagTexto_Objeto);
+    color: var(--cor_tagTexto_Objeto);
     position: fixed;
     top: 90%;
     left: 93%;
@@ -160,7 +162,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--cor_pequenosDetalhes);
 }
 
@@ -481,7 +483,8 @@ footer{
     #subir{
         width: 30px;
         height: 30px;
-        background-color: white;
+        background-color: var(--cor_fundo);
+        border: 1px solid var(--cor_tagTexto_Objeto);
         position: fixed;
         top: 90%;
         left: 91%;
