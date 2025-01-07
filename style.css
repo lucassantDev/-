@@ -431,6 +431,24 @@ footer{
         color: var(--cor_tagTexto_Objeto);
     }
 
+    .iconesMobile{
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 6px;
+    }
+
+    .iconesMobile > span{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .iconesMobile > i{
+        font-size: 2rem
+    }
+
     /* ------------------------------ FIM HABILIDADES TELEFONE*/
 
     #box_redes{
