@@ -495,3 +495,71 @@ footer{
         border-radius: 50%;
     }
 }
+
+@media screen and (min-width: 481px) and (max-width:1024px){
+    #cabecalho{
+        width: 100%;
+        height: 50px;
+        border: 1px solid red;
+    }
+
+    #navegacao{
+        justify-content: space-evenly;
+        border: 1px solid red;
+        width: 80%;
+    }
+
+    .navegacaoStyle{
+        scale: 1;
+        border: 1px solid red;
+        width: fit-content;
+    }
+    /* ------------------------------ FIM CABEÇALHO TABLET */
+
+    .tituloCentralizado h1{
+        font-size:  2rem;
+
+    }
+    /* ------------------------------ FIM MEDIDA & TITULO CENTRALIZADO TABLET */
+
+
+    #box_inicio{
+        height: 650px;
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    #inicio{
+        font-size: 2rem;
+    }
+
+    #inicio_bottom{
+        font-size: 1.2rem;
+    }
+    /* ------------------------------ FIM INICIO TABLET*/
+
+
+    #box_sobreMim{
+        height: 650px;
+    }
+
+    #sobreMim{
+        height: 560px;
+        border: 1px solid red;
+        flex-direction: column;
+    }
+
+    #texto{
+        height: 150px;
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    #fotoPerfil{
+        /* width: 200px;
+        height: 200px; */
+        border-radius: 0;
+        border: 2px solid var(--cor_tagTexto_Objeto);
+        scale: 1;
+    }
+}
