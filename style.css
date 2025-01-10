@@ -500,18 +500,15 @@ footer{
     #cabecalho{
         width: 100%;
         height: 50px;
-        border: 1px solid red;
     }
 
     #navegacao{
         justify-content: space-evenly;
-        border: 1px solid red;
         width: 80%;
     }
 
     .navegacaoStyle{
         scale: 1;
-        border: 1px solid red;
         width: fit-content;
     }
     /* ------------------------------ FIM CABEÇALHO TABLET */
