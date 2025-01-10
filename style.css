@@ -434,7 +434,6 @@ footer{
     }
 
     .iconesMobile{
-        /* border: 1px solid red; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -496,6 +495,7 @@ footer{
     }
 }
 
+
 @media screen and (min-width: 481px) and (max-width:1024px){
     #cabecalho{
         width: 100%;
@@ -518,7 +518,6 @@ footer{
 
     .tituloCentralizado h1{
         font-size:  2rem;
-
     }
     /* ------------------------------ FIM MEDIDA & TITULO CENTRALIZADO TABLET */
 
@@ -526,7 +525,6 @@ footer{
     #box_inicio{
         height: 650px;
         width: 100%;
-        border: 1px solid red;
     }
 
     #inicio{
@@ -545,7 +543,6 @@ footer{
 
     #sobreMim{
         height: 560px;
-        border: 1px solid red;
         flex-direction: column;
     }
 
@@ -553,13 +550,74 @@ footer{
         height: 150px;
         width: 80%;
         font-size: 0.9rem;
+        margin-bottom: 60px;
     }
 
     #fotoPerfil{
-        /* width: 200px;
-        height: 200px; */
-        border-radius: 0;
+        width: 280px;
+        height: 300px;
+        border-radius: 100%;
         border: 2px solid var(--cor_tagTexto_Objeto);
         scale: 1;
+        margin-bottom: 60px;
+    }
+    /* ------------------------------ FIM SOBRE MIM TELEFONE */
+
+    #box_habilidades{
+        height: 650px;
+    }
+    
+    .cardSkill, #habilidades{
+        display: none;
+    }
+
+    #habilidades_mobile{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cardSkill_mobile{
+        width: 450px;
+        height: 140px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        border: 1px solid var(--cor_tagTexto_Objeto);
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .listado_mobile{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-weight: 500;
+        color: var(--cor_tagTexto_Objeto);
+    }
+
+    .iconesMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 6px;
+    }
+
+    .iconesMobile > i{
+        font-size: 2rem
+    }
+    /* ------------------------------ FIM HABILIDADES TABLET*/
+
+    #box_redes{
+        height: 650px;
+    }
+    /* ------------------------------ FIM REDES TABLET*/
+
+    #fim{
+        width: fit-content;
+        height: fit-content;
     }
 }
